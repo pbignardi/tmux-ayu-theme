@@ -1,12 +1,19 @@
 #!/bin/bash
-ayu_black="#101521"
-ayu_blue="#5CCFE6"
-ayu_yellow="#E6B450"
-ayu_red="#F28779"
-ayu_white="#CBCCC6"
-ayu_green="#BAE67E"
+ayu_black="#01060E"
+ayu_bg="#0A0E14"
+ayu_fg="#B3B1AD"
+ayu_blue="#53BDFA"
+ayu_yellow="#F9AF4F"
+ayu_red="#EA6C73"
+ayu_white="#C7C7C7"
+ayu_green="#91B362"
 ayu_visual_grey="#607080"
 ayu_comment_grey="#5C6773"
+ayu_purple="#D2A6FF"
+ayu_orange="#FFB454"
+
+session_icon=""
+# session_icon=" "
 
 get() {
    local option=$1
